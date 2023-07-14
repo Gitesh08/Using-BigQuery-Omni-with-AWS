@@ -2,6 +2,8 @@
 
 BigQuery Omni lets you run BigQuery analytics on data stored in AWS S3. You will create an authorized connection between Google Cloud BigQuery and AWS S3, query data residing in S3 buckets without any data movement and write query results back to AWS S3 buckets.
 
+![sample csv](https://github.com/Gitesh08/Using-BigQuery-Omni-with-AWS/assets/115268756/3a433dbb-c2a1-44bd-a203-653df3dfc9ca)
+
 
 Objectives:
 
@@ -45,5 +47,7 @@ OPTIONS(uri="s3://S3 bucket name/exports/*", format="CSV")
 AS SELECT * FROM `S3 bucket name.bq_omni_demo.bq-omni-table`
 
 2) Navigate to your S3 bucket and verify the data has been exported in the exports directory.
+
+Check out complete workflow: https://medium.com/@gmahadik8080/using-bigquery-omni-with-aws-b09a0d3ca440
 
 Great! You have successfully executed an export query and created a file in your S3 bucket.
