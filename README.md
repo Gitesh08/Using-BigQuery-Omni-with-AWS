@@ -48,6 +48,6 @@ AS SELECT * FROM `S3 bucket name.bq_omni_demo.bq-omni-table`
 
 2) Navigate to your S3 bucket and verify the data has been exported in the exports directory.
 
-Check out complete workflow: https://medium.com/@gmahadik8080/using-bigquery-omni-with-aws-b09a0d3ca440
+Check out complete workflow: https://medium.com/@gitesh08/google-cloud-bigquery-and-aws-s3-connectivity-using-bigquery-omni-a77935642df8
 
 Great! You have successfully executed an export query and created a file in your S3 bucket.
